@@ -1,0 +1,36 @@
+   .policy {
+    background-color: rgb(27, 29, 59);
+    }
+    .ref{
+        color: #fff;
+    }
+    .ref a {
+    color: white;
+    }
+    .copyright {
+    font-size: 17px;
+    color: #fff;
+    }
+    .disc {
+    font-weight: 800;
+    color: #fff;
+    }
+    .box_design{
+    padding: 35px;
+    }
+    .divide ul {
+        text-align: center;
+    }
+    .divide ul li {
+    list-style: none;
+    display: inline-block;
+    border-right: 1px solid #707070;
+    padding-right: 13px;
+    padding-left: 10px;
+    color: white;
+    font-size: 18px;
+    }
+    .divide li:last-child {
+        border-right: 0px;
+    }
+  
