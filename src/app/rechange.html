@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>rechange</title>
+      <link rel="stylesheet" href="rechange.css" />
+      <link
+         href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+         rel="stylesheet"
+         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+         crossorigin="anonymous"
+         />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoJtKh7z7lGz7fuP4F8nfdFvAOA6Gg/z6Y5J6XqqyGXYM2ntX6" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pzjw8f+ua7Kw1TIq0v8FqFjcJ6pajs/rfdfs3SO+kD4Ck5BdPtF+to8xMp9MvcJ4L4lC3wJpb4RRwXzNh6J9Mxd9l+k+Y12+67xoTK1XxRZLHYO2fP1J0M+b/pLmk5Tp8vqJzYqUj3F67XvOlO0lN/lRZ4IeMJ5VdLx04xKDp9iqvM1ZRWzW0Hjy+sO2rgqzKW0DxrIJGx" crossorigin="anonymous"></script>
+      <style>
+         @media only screen and (min-width : 320px) and (max-width : 480px) {
+         div.equities p{
+         font-size: 16px;
+         font-weight: 700;
+         }
+         div.equities{
+         text-align: center;
+         padding-top: 5px;
+         padding-bottom: 2px;
+         width: 94%;
+         }
+         div.equitiess p{
+         font-size: 14px;
+         font-weight: 700;
+         }
+         div.equitiess{
+         text-align: center;
+         padding-top: 5px;
+         padding-bottom: 2px;
+         width: 94%;
+         }
+         div.data_deliver p{
+         font-size: 16px;
+         font-weight: 700;
+         }
+         div.data_deliver{
+         text-align: center;
+         padding-top: 5px;
+         padding-bottom: 2px;
+         width: 91%;
+         }
+         .card1{
+            width: 100%;
+         }
+         .spaces {
+          padding-bottom: 20px;
+}
+         .card1
+         &:before {
+            height: 35px;
+         }
+         .aboutus img {
+        display: none;
+}
+.aboutus-contenttop p {
+    padding-top: 0;
+    padding-bottom: 0;
+    text-align: justify;
+}
+         
+        
+
+         }
+         @media only screen and (min-width : 480px) and (max-width : 766px) {
+         div.equities p{
+         font-size: 17px;
+         font-weight: 700;
+         }
+         div.equities{
+         text-align: center;
+         padding-top: 5px;
+         padding-bottom: 2px;
+         width: 80%;
+         }
+         div.equitiess p{
+         font-size: 17px;
+         font-weight: 700;
+         }
+         div.equitiess{
+         text-align: center;
+         padding-top: 5px;
+         padding-bottom: 2px;
+         width: 80%;
+         }
+         div.data_deliver p{
+         font-size: 20px;
+         font-weight: 700;
+         }
+         div.data_deliver{
+         text-align: center;
+         padding-top: 5px;
+         padding-bottom: 2px;
+         width: 91%;
+         }
+         .big{
+            
+            line-height: 12px;
+            font-size: 13px !important;
+         } 
+         .small{
+            line-height: 13px;
+         }.card1{
+            max-width: 19vw;
+         }
+         .aboutus img {
+        display: none;
+}
+.aboutus-contenttop p {
+    padding-top: 0;
+    padding-bottom: 0;
+    text-align: justify;
+}
+
+
+         
+         
+         }
+         @media only screen and (min-width : 767px) and (max-width : 1199px) {
+         div.equities p{
+         font-size: 22px;
+         font-weight: 700;
+         }
+         div.equities{
+         text-align: center;
+         padding-top: 5px;
+         padding-bottom: 2px;
+         width: 68%;
+         }
+         div.equitiess p{
+         font-size: 22px;
+         font-weight: 700;
+         }
+         div.equitiess{
+         text-align: center;
+         padding-top: 5px;
+         padding-bottom: 2px;
+         width: 68%;
+         }
+         div.data_deliver p{
+         font-size: 20px;
+         font-weight: 700;
+         }
+         div.data_deliver{
+         text-align: center;
+         padding-top: 5px;
+         padding-bottom: 2px;
+         width: 91%;
+         }
+         .big{
+            
+            line-height: 15px;
+            font-size: 13px !important;
+         } 
+         .small{
+            line-height: 13px;
+         }
+         .card1{
+            max-width: 135px;
+         }
+         
+         }
+         @media only screen and (min-width : 1199px)  {
+         div.equities p{
+         font-size: 20px;
+         font-weight: 700;
+         }
+         div.equitiess{
+         text-align: center;
+         padding-top: 5px;
+         padding-bottom: 2px;
+         width: 50%;
+         }
+         div.equitiess p{
+         font-size: 20px;
+         font-weight: 700;
+         }
+         div.equitiess{
+         text-align: center;
+         padding-top: 5px;
+         padding-bottom: 2px;
+         width: 50%;
+         }
+         div.data_deliver p{
+         font-size: 20px;
+         font-weight: 700;
+         }
+         div.data_deliver{
+         text-align: center;
+         padding-top: 5px;
+         padding-bottom: 2px;
+         width: 50%;
+         }
+         .big{
+            
+            line-height: 16px;
+            font-size: 13px !important;
+         } 
+         .small{
+            line-height: 22px;
+         }
+        
+         }
+
+      </style>
+   </head>
+   <body>
+      <div class="container-fluid about">
+         <div class="container container_us">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="start">
+                     <p class="home">
+                        <a href="/">Home</a>">>"
+                        <span>About Us</span>
+                     </p>
+                     <h1><span>About</span>
+                        Us
+                     </h1>
+                     <p class="lines">
+                        Kalkine is a Tech-Enabled Business, based on a Digitally Powered
+                        Architecture and Extensive Data Science led Research. Our analysis
+                        is supported by financial and other data using Kalkine’s
+                        Proprietary Technology.
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="container-fluid content">
+         <div class="container content_line">
+            <div class="row">
+               <div class="col-md-8">
+                  <div class="aboutus-contenttop">
+                     <p>It is worth mentioning that <strong>Kalkine technology </strong>delivers premium research for financial services, resources, technology, and other corporate sectors. <strong>Through Kalkine Subscription Platform, we create optimum content </strong>for audiences to look at research in its best possible context when they are most receptive and in the right mindset to act. <strong>Our unique business model presents research content on our proprietary platform to a diverse set of target audience and the result is Engagement, Readership, and Better Insights for our users.</strong></p>
+                  </div>
+               </div>
+               <div class="col-md-4">
+                  <div class="aboutus">
+                     <img src="images/aboutus1.png" alt="">
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="container-fluid colours">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-6">
+                  <div class="written">
+                     <p class="exe4" href="default.asp"><strong>Overview of Our Subscription Research Services:</strong>
+                        <br> We provide Independent Equity Research based on technology-powered detailed analysis, and insights on various listed stocks for investors to analysis and action upon any Buy, Sell or Hold positions. Our primary aim is to provide general investment idea to clients to enable them to navigate and achieve success in complex financial markets. Our stock picks are based on Value, Growth, and Hybrid Investment Strategies, with a greater focus on the Value Investing Principle of considering enough ‘Margin of Safety’ for Investors, by the great American Economist Benjamin Graham.
+                     </p>
+                  </div>
+               </div>
+               <div class="col-md-6">
+                  <div class="written_second">
+                     <p class="exe4" href="default.asp"><strong>Kalkine’s Investment Philosophy:</strong>
+                        <br> We generally look for companies that are currently low valued with long-term growth prospects that have been currently obscured by macro-economic or industry related factors. In doing so, we rely on our deep expertise in fundamental and technical analysis research to identify right picks for the Investors. While we consider systematic and unsystematic risk (s) in providing our recommendations. Market thematic also directs us to look at different types of investment styles.
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="container-fluid">
+         <div class="conatiner">
+            <div class="row">
+               <div class="col-md-12" align="center" >
+                  <div class="equities">
+                     <p>WHY SHOULD YOU INVEST IN EQUITIES?</p>
+                  </div>
+               </div>
+               <div class="writing">
+                  <p>The two primary reasons for Investing in Equities include :</p>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="container-fluid colours">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-6">
+                  <div class="invest">
+                     <img src="images/about2.png" alt="">
+                     <p>Protection against the erosion of one’s wealth caused by Inflation.</p>
+                  </div>
+               </div>
+               <div class="col-md-6">
+                  <div class="invest_too">
+                     <img src="images/about2.png" alt="">
+                     <p>The potential for better returns through Dividend Income and Capital Appreciation for investors who are willing to undertake greater risks than investing in fixed income securities</p>
+                  </div>
+               </div>
+               <p class="text">At Kalkine, We also aim to analyze the swings in stock prices as well as market fluctuations to gauge the price direction using technical analysis prowess as an Investor may gain from these price swings. We make sure that we consider <strong>both qualitative and quantitative </strong>factors in our decision-making process to identify right picks from the plethora of investment opportunities available in the market.</p>
+               <p class="textt">The research is extensive and tech-driven, delivered through Web-based and Mobile application, wherein support from Kalkine proprietary framework and platform model provides a seamless dissemination of the information and relevant insights for users. Kalkine technology, which has been developed through <strong> a set of software and programming languages including but not limited to Python, delivers a holistic engagement with clients and general audience. In other words, Kalkine provides a robust tech-driven research engine that helps in analyzing diverse markets and delivering real-time user experience.</strong></p>
+            </div>
+         </div>
+      </div>
+      <div class="container-fluid">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12" align="center">
+                  <p class="feature">Overall, our business (given the salient features of Kalkine’s Technology) finds the right fit through the following:</p>
+                  <div class="spaces">
+                     <div class="equities" >
+                        <p>Salient Features of Kalkine’s Technology</p>
+                     </div>
+                  </div>
+               </div>
+              
+                  <div class="col-md-3 col-sm">
+                     <a class="card1">
+                        <p class="big">Proprietary Application Frameworks supported by cutting-edge technologies</p>
+                        <p class="small">that empower the capability of the business insights by analyzing data on about 10,000+ listed businesses.</p>
+                        <div class="go-corner" href="#">
+                           <div class="go-arrow">
+                              →
+                           </div>
+                        </div>
+                     </a>
+                  </div>
+                  <div class="col-md-3 col-sm">
+                     <a class="card1" href="#">
+                        <p class="big">Scalable Architecture</p>
+                        <p class="small">for enhancing our userbase in research front.</p>
+                        <div class="go-corner" href="#">
+                           <div class="go-arrow">
+                              →
+                           </div>
+                        </div>
+                     </a>
+                  </div>
+                  <div class="col-md-3 col-sm">
+                     <a class="card1" href="#">
+                        <p class="big">Exclusive Studio Platform</p>
+                        <p class="small">developed to allow seamless operations and enhanced usablitity - both internal and external. </p>
+                        <div class="go-corner" href="#">
+                           <div class="go-arrow">
+                              →
+                           </div>
+                        </div>
+                     </a>
+                  </div>
+                  <div class="col-md-3 col-sm">
+                     <a class="card1" href="#">
+                        <p class="big">In-house Portfolio Monitoring Tool</p>
+                        <p class="small"> for our customers to help them search for stocks on a real-time basis and creating multiple wish-list for performance monitoring.</p>
+                        <div class="go-corner" href="#">
+                           <div class="go-arrow">
+                              →
+                           </div>
+                        </div>
+                     </a>
+                  </div>
+               
+            </div>
+         </div>
+      </div>
+      <div class="container-fluid">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12" align="center"  >
+                  <div class=''>
+                     <div class="data_deliver">
+                        <p>How we deliver differently?</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-5">
+                  <div class="picture">
+                     <img src="images/third_image.png" alt="">
+                  </div>
+               </div>
+               <div class="col-md-7">
+                  <div class="lastdata">
+                     <ul>
+                        <li >
+                           Data Science driven research aids in providing better insights for customers for further due diligence, reinforcing the ‘Do-it-Yourself’ model for many.
+                        </li>
+                        <li >
+                           Our Web platform and Mobile Application have been developed using breakthrough technologies with flavor from in-house technologies and tools that provide better user experience.
+                        </li>
+                        <li >
+                           All our products have premium protection service for clients data by protecting out infrastructure and products.
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+               <p class="aim">Our aim is to provide a seamless user experience to our customers with world-class services to help them have better and evolved investment decisions. Kalkine’s Research Products are based on extensive data mining and analytics; and the future roadmap finds solid foundation through Artificial intelligence (AI) capabilities, and cognitive automation efforts being developed for extensive mining and analytical facets. Al based Decision Engines and Robo Advisors are believed to form a part of our technology roadmap.</p>
+            </div>
+         </div>
+      </div>
+      <div class="container-fluid footerlinks_layout">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-3">
+                  <div class="kalfooter_award">
+                     <a href="">
+                     <img src="images/logo.png" alt="">
+                     </a>
+                  </div>
+                  <div class="kalfooter_awardimg">
+                     <a href="">
+                     <img src="images/award.png" alt="">
+                     </a>
+                  </div>
+               </div>
+               <div class="col-md-3">
+                  <h2>Our Company</h2>
+                  <ul>
+                     <li>
+                        <a href="about-us"> About Us</a>
+                     </li>
+                     <li>
+                        <a href="vision"> vision and Mission</a>
+                     </li>
+                     <li>
+                        <a href="contact"> Contact Us</a>
+                     </li>
+                     <li>
+                        <a href="Media"> Media Coverage</a>
+                     </li>
+                     <li>
+                        <a href="Glossary"> Glossary</a>
+                     </li>
+                     <li>
+                        <a href="pricing"> Pricing</a>
+                     </li>
+                     <li>
+                        <a href="kalkine_media"> Kalkine Media</a>
+                     </li>
+                  </ul>
+               </div>
+               <div class="col-md-3">
+                  <h2>Useful Links</h2>
+                  <ul>
+                     <li>
+                        <a href=""> Research Overview and Methodology</a>
+                     </li>
+                     <li>
+                        <a href="">Stocks Covered</a>
+                     </li>
+                     <li>
+                        <a href="">Past Performance</a>
+                     </li>
+                     <li>
+                        <a href="">Past Recomendations</a>
+                     </li>
+                     <li>
+                        <a href="">FAQs</a>
+                     </li>
+                     <li>
+                        <a href="">Kalkine Professional</a>
+                     </li>
+                  </ul>
+               </div>
+               <div class="col-md-3">
+                  <h2>Contact Us</h2>
+                  <ul class="kalfooter_address">
+                     <li>
+                        <p class="kalfooter_location">
+                           <a href="">50 California St, Suite 1500, San Francisco, CA, United States of America, USA, 94111</a>
+                        </p>
+                     </li>
+                     <li>
+                        <p class="kalfooter_phone">
+                           <a href="tel:+14154506569">+1 415-450-6569</a>
+                        </p>
+                     </li>
+                     <li>
+                        <p class="kalfooter_mail">
+                           <a href="">support@kalkine.com</a>
+                        </p>
+                     </li>
+                     <li>
+                        <p class="kalfooter_phone">
+                           <a href="">Mon - Fri [9.00am - 5.00pm]</a>
+                        </p>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="container-fluid">
+         <div class="container backcolor">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class='policy'>
+                     <ul class="divide">
+                        <li>
+                           <a href=''>T&C</a>
+                        </li>
+                        <li>
+                           <a href=''>Privacy Policy</a>
+                        </li>
+                     </ul>
+                     <p class='dis_color'>Disclaimer</p>
+                     <p class='ref_color'>Kalkine Equities LLC., having Delaware File Number 4697384 is authorised to provide general advice only. The information on https://kalkine.com/ does not take into account any of your investment objectives, financial situation or needs. Before you make a decision about whether to acquire a financial product, you should obtain the Product Disclosure Statement from the product issuer. You should consider the appropriateness of advice taking into account your own objectives, financial situation and needs and seek independent financial advice before making any financial decisions.</p>
+                     <p class='ref_color'>The link to our <a href="https://kalkine.com/cms/terms-and-conditions"> Terms &amp; Conditions </a> and <a href="https://kalkine.com/cms/privacy-policy"> Privacy Policy </a> of our services have been provided for your reference.</p>
+                     <p class='copyright_col'>Copyright © 2024 Krish Capital Pty Ltd. All rights reserved. No part of this website, or its content, may be reproduced in any form without our prior consent.</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </body>
+</html>
