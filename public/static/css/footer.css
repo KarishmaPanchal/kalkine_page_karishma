@@ -1,0 +1,213 @@
+
+.box_design{
+    padding: 35px;
+    
+  }
+  
+footer {
+    background-color: white;
+  
+}
+.items {
+    float: left;
+    width: 90%;
+    border-bottom: 2px solid #b2b2b2;
+    margin-bottom: 8px;
+}
+ul.footerservices {
+    float: left;
+    width: 100%;
+    padding-left: 0px;
+    list-style: none;
+}
+ul.footerservices li {
+    float: left;
+    width: 100%;
+    padding-right: 15px;
+    margin-bottom: 10px;
+    line-height: 11px;
+}
+ul.footerservices li a{
+    text-decoration: none;
+    color:black;
+font-size: 16px;
+font-weight: bold;
+}
+ul.footersubmenu li a {
+    min-height: auto !important;
+}
+ul.footerservices li a:first-child {
+    min-height: 35px;
+}
+ul.footerservices li ul {
+    float: left;
+    width: 100%;
+    margin-top: 20px;
+    padding-left: 15px;
+}
+ul.footerservices li ul li {
+    float: left;
+    width: 100%;
+    list-style: disc;
+}
+ul.footerservices li ul li a {
+    float: left;
+    width: 100%;
+    font-size: 14px;
+    font-weight: 400;
+}
+ul.footersubmenu li::marker {
+    color: black;
+}
+ul.footerlinks li::marker {
+    color: black;
+}
+.boxes {
+    display: flex;
+    justify-content: space-between;
+}
+footer h3 {
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.heading h3 {
+    font-size: 18px;
+    font-weight: 700;
+    border-bottom: 2px solid #b2b2b2;
+    width: 90%;
+}
+ul.footerlinks_3 li {
+  
+    margin-bottom: 10px;
+    padding-left: 5px;
+    font-weight: 600;
+}
+ul.footerlinks_3 li p {
+    font-size: 13px;
+    color: black;
+    padding-left: 10px;
+    line-height: 25px !important;
+}
+
+.iconss_location::before {
+    content: url(https://kalkine.com.au/static/assets/img/pin.svg);
+    position: absolute;
+    left: 0px;
+    margin-top: 3px;
+}
+
+.iconss_phone::before {
+    position: absolute;
+    left: 0px;
+    content: url(https://kalkine.com.au/static/assets/img/call.svg);
+  
+    
+}
+
+.iconss_mail::before{
+    position: absolute;
+    left: 0px;
+    content: url(https://kalkine.com.au/static/assets/img/mail.svg);
+}
+
+.iconss_clock::before{
+    position: absolute;
+    left: 0px;
+    content: url(https://kalkine.com.au/static/assets/img/Clock_22.svg);
+}
+
+ul.footerlinks{
+    float: left;
+    width: 100%;
+}
+
+ul.footerlinks li {
+    float: left;
+    width: 100%;
+    padding-right: 15px;
+    font-weight: 600;
+    color: black;
+   
+}
+ul.footerlinks li a {
+    float: left;
+    width: 100%;
+    font-size: 15px;
+    font-weight: 400;
+    color: black !important;
+    text-decoration: none;
+}
+ul.footerlinks_3 {
+    list-style: none;
+    text-decoration: none;
+}
+ul.footerlinks_3 li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+   
+}
+.copyrightcontainer {
+    display: flex;
+    justify-content: space-between;
+}
+.copyrightcontainer p {
+    font-size: 14px;
+    font-weight: 400;
+    color: black;
+    margin-bottom: 0px;
+}
+.copyrightcontainer a{
+    font-size: 14px;
+    font-weight: 400;
+    color:black;
+    text-decoration: none;
+}
+@media only screen and (max-width:767px) {
+.container-fluid.servicebanner-section {
+    background-color: #2e405b;
+    background-image:none;
+    height: auto;
+    padding:50px 0px;
+    margin-bottom:30px;
+}
+.service-bannertext h1 {
+    font-size: 32px;
+    line-height: 42px;
+}
+.service-bannertext p {
+    font-size: 18px;
+    line-height: 24px;
+}
+ul.footerservices li {
+    width: 100%;
+    padding-right: 0px;
+}
+ul.footerservices li a:first-child {
+    min-height: auto;
+}
+.copyrightcontainer {
+    justify-content: flex-start;
+    flex-direction: column-reverse;
+}
+.copyrightcontainer a {
+    margin-bottom: 10px;
+}
+}
+.foot_1{
+    position: fixed; z-index: 2147483647; display: block;
+}
+@media screen and (max-width: 700px) {
+  .boxes {
+   flex-direction: column !important;
+   display: flex;
+    justify-content: space-between;
+  }
+  .boxes .ant-col{
+    min-height: auto !important;
+    max-width: 100% !important;
+  }
+
+}
